@@ -1120,26 +1120,33 @@ section.home.light .social-icons li a:hover {
 }
 
 select.portfolio-filter-mobile {
-  font-size: 16px;
+  font-size: 20px;
   border-radius: 10px;
   outline: 0;
   margin-bottom: 30px;
   position: relative;
   width: 100%;
+  text-align: center;
+  color: #454360;
+  
 }
 
 .pf-filter-wrapper {
   position: relative;
+  border-radius: 200px;
 }
 .pf-filter-wrapper:after {
-  content: "";
+  /* content: ""; */
   font-family: "FontAwesome";
-  position: absolute;
+  position: absolute ;
   top: 0;
   right: 20px;
   color: #000;
+  
 }
-
+.hire{
+   text-align: center;
+}
 /*=================================================================*/
 /*                      FACTS                              
 /*=================================================================*/
@@ -2647,6 +2654,7 @@ body {
 
   .pf-filter-wrapper {
     display: block;
+    
   }
 
   .triangle-top-sm:before {

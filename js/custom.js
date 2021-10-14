@@ -155,12 +155,13 @@ $(window).on('load', function() {
         navSelector: '.portfolio-pagination',
         extraScrollPx: 0,
         bufferPx: 0,
-        maxPage: 6,
+        maxPage: 3,
         loading: {
-            finishedMsg: "No more works",
+          // msgTextx 
+            finishedMsg: "",
             msgText: '',
             speed: 'slow',
-            selector: '.load-more',
+            selector: '',
         }
     },
     // trigger Masonry as a callback
